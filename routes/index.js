@@ -16,10 +16,20 @@ router.post('/', function(req, res, next){
 	client.messages.create({ 
 	to: "9788731120", 
 	from: "+19782082471", 
-	body: "Emergency episode!",   
+	body: "I need help. Emergency episode! Visit URL.",   
 	}, function(err, message) { 
 		console.log(message.sid); 
   	});
+
+	/*
+  	client.messages.create({ 
+	to: "9179302108", 
+	from: "+19782082471", 
+	body: "I need help. Emergency episode! Visit URL",   
+	}, function(err, message) { 
+		console.log(message.sid); 
+  	});
+	*/
 });
 
 module.exports = router;

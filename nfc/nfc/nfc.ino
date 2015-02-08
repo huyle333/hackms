@@ -80,8 +80,9 @@ void loop(void) {
           // Data seems to have been read ... spit it out
           Serial.println("Reading Block 4:");
           nfc.PrintHexChar(data, 16);
+          Serial.println("Opening door...");
           Serial.println("");
-      
+          
           // Wait a bit before reading the card again
           delay(1000);
         }
@@ -110,7 +111,6 @@ void loop(void) {
         // Data seems to have been read ... spit it out
         nfc.PrintHexChar(data, 4);
         Serial.println("");
-        Serial.println("Entering password...");
         // Wait a bit before reading the card again
         delay(1000);
       }
