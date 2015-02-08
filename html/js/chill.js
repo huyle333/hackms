@@ -74,7 +74,7 @@ $(function() {
 
       $("#start-button").html("Cancel");
       $("#about-link").hide();
-      $("#meditation-text").html("<p style='color:#2A6496'>Sit back and clear your head.</p>" +
+      $("#meditation-text").html("<p style='color:#2A6496'>Close your eyes and clear your head.</p>" +
                                  "<span class='blink'>♫</span>");
       var startTime = null;
 
