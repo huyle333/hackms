@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 // Twilio Credentials 
-var accountSid = 'AC0cc03e97d1f6d1b4787918810efcc01f'; 
-var authToken = '8c3132b824a3737f6feeee92c3fdb09b'; 
+var accountSid = 'filler'; 
+var authToken = 'filler'; 
  
 //require the Twilio module and create a REST client 
 var client = require('twilio')(accountSid, authToken); 
@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next){
 	client.messages.create({ 
-	to: "9788731120", 
-	from: "+19782082471", 
+	to: "filler", 
+	from: "filler", 
 	body: "I need help. Emergency episode! Visit URL.",   
 	}, function(err, message) { 
 		console.log(message.sid); 
