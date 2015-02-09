@@ -1,5 +1,15 @@
 # hackms - ONE
 
+### What is MS?
+
+Multiple sclerosis (MS) is an immune-mediated disease. In a healthy body, the immune system sends white blood cells to fight invaders, such as bacteria. An immune-mediated disease is when the immune system attacks the healthy cells of your body. 
+
+In MS, the immune system attacks the brain, spinal cord, and nerves. Over time, the immune system wears down the protective cover on the nerves, called myelin. This damage is called sclerosis. This damage results in the symptoms of MS, such as pain, loss of brain function, and loss of mobility. Over time, these symptoms can affect other aspects of life.
+
+### What is ONE?
+
+![](One - website.png)
+
 Instead of just making a simple App for a small, singular purpose for people with MS, we felt strongly about building a platform with various functions, combining what was available with today’s technology. 
 
 According to our teammate who graduated from medical school at Northeastern University,  
@@ -29,6 +39,4 @@ A centralized platform like One would not be a platform without an emergency fun
 The last prototype function that we developed includes a hardware solution for precise and mechanical tasks. Inspired by Estimote, we saw a convenient solution through NFC card scanners to perform automated tasks. An example is sometimes, fumbling for your keys to get inside your house after a long day can be tiring, annoying, and stressful. With a small NFC tag to keep in your wallet or even using your phone as the NFC device, you tap on your door to open it automatically. Other functions that we planned on integrating included a schedule application to manage the day, but we only had enough time to develop for three.
 
 One provides this unified platform where people living with MS can find the right community and tools for their stress relief, automation, and schedule needs. 
-
-![](One - website.png)
 
