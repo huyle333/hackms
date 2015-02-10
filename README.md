@@ -8,7 +8,9 @@ In MS, the immune system attacks the brain, spinal cord, and nerves. Over time, 
 
 ### What is ONE?
 
+
 ![](One - website.png)
+
 
 Instead of just making a simple App for a small, singular purpose for people with MS, we felt strongly about building a platform with various functions, combining what was available with today’s technology. 
 
